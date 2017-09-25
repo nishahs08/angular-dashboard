@@ -1,0 +1,131 @@
+/*
+* Utility classes
+*/
+
+.np { padding: 0 !important; }
+.nm { margin: 0; }
+
+/*
+* Global styles
+*/
+
+body { padding-top: 50px; }
+
+/*
+* Dashboard styles goes here
+*/
+
+.dashboard-container {
+
+}
+
+.dashboard-container .dash-nav {
+    background: #fff;
+    border: none;
+}
+
+.dashboard-container .dash-nav .navbar-brand {
+    border-right: 1px solid #e3e3e3;
+    width: 200px;
+}
+
+.dashboard-container .content-parent {
+    max-height: 100vh;
+}
+
+.dashboard-container .sidenav-container {
+    height: 100vh;
+    overflow-y: scroll;
+    width: 20%;
+    float: left;
+    background: #8ac048;
+}
+
+.dashboard-container .sidenav-container::-webkit-scrollbar {
+    width: 4px;
+}
+
+.dashboard-container .sidenav-container::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.dashboard-container .sidenav-container .account-info {
+    background: #68b010;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.dashboard-container .sidenav-container .account-info span {
+    color: #d2d2d2;
+}
+
+.dashboard-container .sidenav-container .links {
+    padding-top: 20px;
+}
+
+.dashboard-container .sidenav-container .links .link-tab {
+    text-align: left;
+}
+
+.dashboard-container .sidenav-container .links span.glyphicon {
+    margin-right: 5px;
+    padding-left: 3em;
+}
+
+.dashboard-container .sidenav-container .links .link {
+    width: 100%;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #f2f2f2;
+    display: block;
+}
+
+.dashboard-container .sidenav-container .links .link-active {
+    border-left: 2px solid yellow;
+    background: #68b010;
+}
+
+.dashboard-container .sidenav-container .links .link-active span.glyphicon {
+    color: yellow;
+}
+
+.dashboard-container .content-parent .content {
+    background: #b1e47f;
+    width: 80%;
+    float: right;
+    height: 100vh;
+    padding: 10px;
+}
+
+/*
+* Alert Component Styles
+*/
+
+.alert-container .title {
+    background: #fff;
+    color: rgba(0,0,0,0.3);
+    padding: 15px 10px;
+}
+
+.alert-container .content {
+    padding: 10px;
+    width: 100% !important;
+    background: #c4f792;
+}
+
+.alert-container .content table {
+}
+
+.alert-container .content table thead tr {
+    background: #8ac048;
+}
+
+.alert-container .content table tbody tr:nth-child(even) {
+    background: #c4f792 !important;
+}
+
+.alert-container .content table thead tr td,
+.alert-container .content table tbody tr td {
+    border-right: 1px solid #f2f2f2;
+}
