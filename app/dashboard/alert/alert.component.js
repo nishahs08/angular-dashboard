@@ -3,6 +3,12 @@ angular
     .component('dashAlert', {
         templateUrl: 'app/dashboard/alert/alert.template.html',
         controller: function DashAlertController($scope) {
+            const self = this;
+
+            this.formModel = {
+                email: '',
+                password: ''
+            };
             this.tableData = [
                 {
                     alert: 3305029,
@@ -38,5 +44,11 @@ angular
                     acknowledge: true
                 }
             ]
+
+            this.methods = {
+                handleClick() {
+                    console.log(self.formModel);
+                }
+            }
         }
     })

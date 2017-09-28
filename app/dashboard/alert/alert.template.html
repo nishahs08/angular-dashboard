@@ -3,6 +3,11 @@
         Alert
     </header>
     <section class="content table-responsive">
+        <form>
+            <input type="text" name="email" ng-model="$ctrl.formModel.email">
+            <input type="password" name="password" ng-model="$ctrl.formModel.password">
+            <button ng-click="$ctrl.methods.handleClick()">Click Me</button>
+        </form>
         <table class="table table-striped table-hover np">
             <thead>
                 <tr>
